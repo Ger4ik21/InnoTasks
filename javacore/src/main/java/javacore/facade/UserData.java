@@ -1,2 +1,4 @@
-package javacore.facade;public class UserData {
+package javacore.facade;
+
+public class UserData {
 }
