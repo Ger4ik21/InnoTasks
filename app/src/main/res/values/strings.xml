@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">DesignAppTasks</string>
+    <string name="previous_color">Previous color</string>
+    <string name="next_color">Next color</string>
 </resources>
