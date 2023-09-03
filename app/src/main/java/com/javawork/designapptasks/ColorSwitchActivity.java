@@ -3,7 +3,7 @@ package com.javawork.designapptasks;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class ColorSwitchActivity extends AppCompatActivity {
@@ -12,18 +12,21 @@ public class ColorSwitchActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_color_switch);
-    }
 
-    ColorSwitchView switchColorView = findViewById(R.id.switch_color_view);
-    TextView valueTextView = (TextView) findViewById(R.id.value_text_view);
+        ColorSwitchView switchColorView = findViewById(R.id.switch_color_view);
+        TextView valueTextView = findViewById(R.id.value_text_view);
+        Button previousColor = findViewById(R.id.previous_button);
+        Button nextColor = findViewById(R.id.next_button);
 
-    public void previousColor(View v) {
-        switchColorView.setPreviousColor();
-        valueTextView.setText(String.valueOf(switchColorView.getCurrentIndex()));
-    }
-    public void nextColor (View v) {
-        switchColorView.setNextColor();
-        valueTextView.setText(String.valueOf(switchColorView.getCurrentIndex()));
-    }
+        previousColor.setOnClickListener(view -> {
+            switchColorView.setPreviousColor();
+            valueTextView.setText(String.valueOf(switchColorView.getCurrentIndex()));
+        });
 
+        nextColor.setOnClickListener(view -> {
+            switchColorView.setNextColor();
+            valueTextView.setText(String.valueOf(switchColorView.getCurrentIndex()));
+        });
+
+    }
 }
