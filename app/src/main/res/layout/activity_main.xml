@@ -54,6 +54,7 @@
             android:layout_margin="10dp"
             android:backgroundTint="#40D517"
             android:gravity="center"
+            android:onClick="getColorSwitchActivity"
             android:text="Button" />
     </LinearLayout>
 

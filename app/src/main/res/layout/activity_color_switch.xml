@@ -32,6 +32,7 @@
         android:backgroundTint="#C87345"
         android:onClick="previousColor"
         android:text="@string/previous_color"
+        android:textColor="#212121"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -43,6 +44,8 @@
         android:backgroundTint="#C87345"
         android:onClick="nextColor"
         android:text="@string/next_color"
+        android:textColor="#212121"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

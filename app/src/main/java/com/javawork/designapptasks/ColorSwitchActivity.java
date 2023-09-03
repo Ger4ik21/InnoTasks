@@ -2,7 +2,6 @@ package com.javawork.designapptasks;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -15,16 +14,16 @@ public class ColorSwitchActivity extends AppCompatActivity {
         setContentView(R.layout.activity_color_switch);
     }
 
-    ColorSwitchView colorSwitchView = findViewById(R.id.switch_color_view);
-    TextView valueTextView =(TextView) findViewById(R.id.value_text_view);
+    ColorSwitchView switchColorView = findViewById(R.id.switch_color_view);
+    TextView valueTextView = (TextView) findViewById(R.id.value_text_view);
 
     public void previousColor(View v) {
-        colorSwitchView.setPreviousColor();
-        valueTextView.setText(String.valueOf(colorSwitchView.getCurrentIndex()));
+        switchColorView.setPreviousColor();
+        valueTextView.setText(String.valueOf(switchColorView.getCurrentIndex()));
     }
     public void nextColor (View v) {
-        colorSwitchView.setNextColor();
-        valueTextView.setText(String.valueOf(colorSwitchView.getCurrentIndex()));
+        switchColorView.setNextColor();
+        valueTextView.setText(String.valueOf(switchColorView.getCurrentIndex()));
     }
 
 }

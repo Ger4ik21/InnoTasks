@@ -13,7 +13,7 @@
         android:theme="@style/Theme.DesignAppTasks"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".ColorSwitchActivity"
             android:exported="false" />
         <activity
             android:name=".Z_Order"
@@ -22,7 +22,7 @@
             android:name=".ScrollV"
             android:exported="false" />
         <activity
-            android:name=".ColorSwitchActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

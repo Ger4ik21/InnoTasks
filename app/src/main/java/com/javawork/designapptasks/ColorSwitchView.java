@@ -23,16 +23,6 @@ public class ColorSwitchView extends View {
         return paint;
     }
 
-    public ColorSwitchView(Context context) {
-        super(context);
-        init();
-    }
-
-    public ColorSwitchView(Context context, @Nullable AttributeSet attrs) {
-        super(context, attrs);
-        init();
-    }
-
     public ColorSwitchView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         init();
