@@ -1,4 +1,4 @@
-package com.javawork.designapptasks;
+package com.javawork.designapptasks.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+
+import com.javawork.designapptasks.R;
 
 import java.util.Random;
 

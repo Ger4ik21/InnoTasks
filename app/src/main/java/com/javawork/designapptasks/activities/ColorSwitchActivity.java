@@ -1,10 +1,13 @@
-package com.javawork.designapptasks;
+package com.javawork.designapptasks.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.javawork.designapptasks.javaclasses.ColorSwitchView;
+import com.javawork.designapptasks.R;
 
 public class ColorSwitchActivity extends AppCompatActivity {
 

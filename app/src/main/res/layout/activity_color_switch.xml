@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ColorSwitchActivity">
+    tools:context=".activities.ColorSwitchActivity">
 
-    <com.javawork.designapptasks.ColorSwitchView
+    <com.javawork.designapptasks.javaclasses.ColorSwitchView
         android:id="@+id/switch_color_view"
         android:layout_width="match_parent"
         android:layout_height="50dp"

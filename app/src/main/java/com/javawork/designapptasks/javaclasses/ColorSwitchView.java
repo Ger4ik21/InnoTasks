@@ -1,4 +1,4 @@
-package com.javawork.designapptasks;
+package com.javawork.designapptasks.javaclasses;
 
 import android.content.Context;
 import android.graphics.Canvas;

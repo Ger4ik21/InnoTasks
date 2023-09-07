@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Favorites"
+        android:id="@+id/favorites"
+        android:icon="@drawable/baseline_favorite_24"/>
+
+    <item
+        android:title="Music"
+        android:id="@+id/music"
+        android:icon="@drawable/baseline_music_note_24"/>
+
+    <item
+        android:title="Places"
+        android:id="@+id/places"
+        android:icon="@drawable/baseline_place_24"/>
+
+    <item
+        android:title="News"
+        android:id="@+id/news"
+        android:icon="@drawable/baseline_newspaper_24"/>
+
+</menu>
