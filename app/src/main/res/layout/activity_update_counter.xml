@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateCounter">
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="330dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="191dp"
+        android:background="#D8DF16"
+        android:backgroundTint="#DDD161"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button_cancel"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#1719E3"
+            android:onClick="goToCounter"
+            android:text="Cancel" />
+
+        <Button
+            android:id="@+id/button_update"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="#1719E3"
+            android:onClick="Update"
+            android:text="Update" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
