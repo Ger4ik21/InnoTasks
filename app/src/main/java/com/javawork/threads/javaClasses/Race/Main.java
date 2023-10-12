@@ -1,4 +1,4 @@
-package com.javawork.threads.javaClassesRace;
+package com.javawork.threads.javaClasses.Race;
 
 import java.util.Scanner;
 
@@ -9,7 +9,6 @@ public class Main {
         double trackLength = scanner.nextDouble();
         System.out.println("The amount of laps is " + (trackLength/1000));
         Race race = new Race(trackLength);
-        //race.startRace();
         boolean continueRace = true;
         while (continueRace) {
             race.startRace();

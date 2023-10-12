@@ -1,4 +1,4 @@
-package com.javawork.threads.javaClassesRace;
+package com.javawork.threads.javaClasses.Race;
 
 import java.util.Random;
 
